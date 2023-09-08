@@ -1,0 +1,37 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    background-color: rgb(8, 8, 8);
+    
+    /* color: white; */
+}
+
+body{
+    color: white;
+}
+.container{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    /* margin-left: 8rem; */
+    padding: 1.5rem;
+    /* margin-right: 12rem; */
+    grid-gap: 2.5rem;
+}
+.container div:hover{
+    content: wrap;
+    color: rgb(219, 16, 111);
+    /* background-color: rgb(93, 31, 129); */
+    opacity: 0.4;
+}
+
+#searchmovie{
+    display: block;
+    margin: auto;
+    margin-top: 4rem;
+    height: 2rem;
+    width: 30%;
+    border-radius: 1.2rem;
+    background-color: rgb(247, 243, 243);
+    text-align: center;
+
+}
